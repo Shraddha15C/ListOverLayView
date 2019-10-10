@@ -17,8 +17,6 @@
 		41130641234DF96C00E5E221 /* ListOverLayView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4113063F234DF96C00E5E221 /* ListOverLayView.xcdatamodeld */; };
 		41130643234DF98000E5E221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41130642234DF98000E5E221 /* Assets.xcassets */; };
 		41130646234DF98000E5E221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41130644234DF98000E5E221 /* LaunchScreen.storyboard */; };
-		41130651234DF98100E5E221 /* ListOverLayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41130650234DF98100E5E221 /* ListOverLayViewTests.swift */; };
-		4113065C234DF98100E5E221 /* ListOverLayViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113065B234DF98100E5E221 /* ListOverLayViewUITests.swift */; };
 		4113066D234DFA7900E5E221 /* TrialMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41130668234DFA7900E5E221 /* TrialMap.storyboard */; };
 		4113066E234DFA7900E5E221 /* TrialMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41130669234DFA7900E5E221 /* TrialMapViewController.swift */; };
 		4113066F234DFA7900E5E221 /* ListOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113066A234DFA7900E5E221 /* ListOverlayView.swift */; };
@@ -66,11 +64,7 @@
 		41130645234DF98000E5E221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41130647234DF98000E5E221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4113064C234DF98100E5E221 /* ListOverLayViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOverLayViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41130650234DF98100E5E221 /* ListOverLayViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOverLayViewTests.swift; sourceTree = "<group>"; };
-		41130652234DF98100E5E221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41130657234DF98100E5E221 /* ListOverLayViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOverLayViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4113065B234DF98100E5E221 /* ListOverLayViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOverLayViewUITests.swift; sourceTree = "<group>"; };
-		4113065D234DF98100E5E221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41130668234DFA7900E5E221 /* TrialMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrialMap.storyboard; sourceTree = "<group>"; };
 		41130669234DFA7900E5E221 /* TrialMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialMapViewController.swift; sourceTree = "<group>"; };
 		4113066A234DFA7900E5E221 /* ListOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOverlayView.swift; sourceTree = "<group>"; };
@@ -123,8 +117,6 @@
 				41130618234DF11600E5E221 /* ListOverLay */,
 				41130623234DF11600E5E221 /* ListOverLayTests */,
 				41130635234DF96B00E5E221 /* ListOverLayView */,
-				4113064F234DF98100E5E221 /* ListOverLayViewTests */,
-				4113065A234DF98100E5E221 /* ListOverLayViewUITests */,
 				41130617234DF11600E5E221 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,24 +165,6 @@
 				4113063F234DF96C00E5E221 /* ListOverLayView.xcdatamodeld */,
 			);
 			path = ListOverLayView;
-			sourceTree = "<group>";
-		};
-		4113064F234DF98100E5E221 /* ListOverLayViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				41130650234DF98100E5E221 /* ListOverLayViewTests.swift */,
-				41130652234DF98100E5E221 /* Info.plist */,
-			);
-			path = ListOverLayViewTests;
-			sourceTree = "<group>";
-		};
-		4113065A234DF98100E5E221 /* ListOverLayViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4113065B234DF98100E5E221 /* ListOverLayViewUITests.swift */,
-				4113065D234DF98100E5E221 /* Info.plist */,
-			);
-			path = ListOverLayViewUITests;
 			sourceTree = "<group>";
 		};
 		41130667234DFA7900E5E221 /* TrialMapView */ = {
@@ -434,7 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41130651234DF98100E5E221 /* ListOverLayViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4113065C234DF98100E5E221 /* ListOverLayViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
